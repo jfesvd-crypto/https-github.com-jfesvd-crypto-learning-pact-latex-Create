@@ -33,13 +33,11 @@ Key ideas:
 
 ## Cite this work
 
-### How to cite (BibTeX)
-```bibtex
 @misc{Feszter2025NewCovenant,
-  author       = {Janusz Feszter},
-  title        = {A New Covenant for Learning: From Compulsion to Concert},
-  year         = {2025},
+  author = {Janusz Feszter},
+  title  = {A New Covenant for Learning: From Compulsion to Concert},
+  year   = {2025},
   howpublished = {GitHub Pages},
-  url          = {https://jfesvd-crypto.github.io/learning-pact-latex-Create/A-New-Covenant-for-Learning.pdf},
-  note         = {Version 5 — Created: 2025-09-13}
+  url    = {https://jfesvd-crypto.github.io/https-github.com-jfesvd-crypto-learning-pact-latex-Create/A-New-Covenant-for-Learning.pdf},
+  note   = {Version 5 — Created: 2025-09-13}
 }

@@ -7,8 +7,7 @@
 [![Cite (BibTeX)](https://img.shields.io/badge/Cite-BibTeX-blue)](https://raw.githubusercontent.com/jfesvd-crypto/learning-pact-latex-Create./main/docs/citation.bib)
 [![Build PDF](https://github.com/jfesvd-crypto/learning-pact-latex-Create./actions/workflows/latex.yml/badge.svg)](https://github.com/jfesvd-crypto/learning-pact-latex-Create./actions)
 
-Direct link:
-https://jfesvd-crypto.github.io/learning-pact-latex-Create./A-New-Covenant-for-Learning.pdf
+Direct link: https://jfesvd-crypto.github.io/https-github.com-jfesvd-crypto-learning-pact-latex-Create/A-New-Covenant-for-Learning.pdf
 
 ---
 

@@ -1,16 +1,3 @@
-Direct Chat
-
-
-gpt-5-high
-gpt-5-high
-Jasne — poprowadzę Cię “krok po kroku” na telefonie. Chodzi o dodanie pliku .github/workflows/pages.yml, który opublikuje folder docs na GitHub Pages.
-
-Zrób dokładnie to:
-
-Otwórz ten link (włącz “Wersja na komputer”/Desktop site w przeglądarce)
-Link do utworzenia pliku we właściwej ścieżce:
-https://github.com/jfesvd-crypto/https-github.com-jfesvd-crypto-learning-pact-latex-Create/new/main?filename=.github/workflows/pages.yml
-Wklej do edytora ten YAML i nic nie zmieniaj w nagłówkach
 name: Deploy static content to Pages
 on:
 push:

@@ -1,0 +1,45 @@
+Direct Chat
+
+
+gpt-5-high
+gpt-5-high
+Jasne — poprowadzę Cię “krok po kroku” na telefonie. Chodzi o dodanie pliku .github/workflows/pages.yml, który opublikuje folder docs na GitHub Pages.
+
+Zrób dokładnie to:
+
+Otwórz ten link (włącz “Wersja na komputer”/Desktop site w przeglądarce)
+Link do utworzenia pliku we właściwej ścieżce:
+https://github.com/jfesvd-crypto/https-github.com-jfesvd-crypto-learning-pact-latex-Create/new/main?filename=.github/workflows/pages.yml
+Wklej do edytora ten YAML i nic nie zmieniaj w nagłówkach
+name: Deploy static content to Pages
+on:
+push:
+branches: ["main"]
+workflow_dispatch: {}
+permissions:
+contents: read
+pages: write
+id-token: write
+
+concurrency:
+group: pages
+cancel-in-progress: true
+
+jobs:
+deploy:
+environment:
+name: github-pages
+url: ${{ steps.deployment.outputs.page_url }}
+runs-on: ubuntu-latest
+steps:
+- name: Checkout
+uses: actions/checkout@v4
+- name: Configure Pages
+uses: actions/configure-pages@v5
+- name: Upload docs as site
+uses: actions/upload-pages-artifact@v3
+with:
+path: docs
+- name: Deploy to GitHub Pages
+id: deployment
+uses: actions/deploy-pages@v4

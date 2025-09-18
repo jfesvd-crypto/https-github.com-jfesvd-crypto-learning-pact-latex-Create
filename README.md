@@ -1,5 +1,7 @@
 # A New Covenant for Learning: From Compulsion to Concert
 
+[![last commit](https://img.shields.io/github/last-commit/jfesvd-crypto/https-github.com-jfesvd-crypto-learning-pact-latex-Create.svg)](https://github.com/jfesvd-crypto/https-github.com-jfesvd-crypto-learning-pact-latex-Create/commits/main)
+
 [![Pages](https://github.com/jfesvd-crypto/https-github.com-jfesvd-crypto-learning-pact-latex-Create/actions/workflows/pages.yml/badge.svg)](https://github.com/jfesvd-crypto/https-github.com-jfesvd-crypto-learning-pact-latex-Create/actions/workflows/pages.yml)
 
 [![Version](https://img.shields.io/badge/Version-5-informational)](#)
